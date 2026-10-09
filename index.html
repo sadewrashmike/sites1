@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites - Powered by Alite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Overlay Backdrop -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- About Sites Slide-out Drawer -->
+    <aside class="about-drawer" id="aboutDrawer">
+        <div class="drawer-header">
+            <h2>About Sites</h2>
+            <button class="close-btn" id="closeDrawer">&times;</button>
+        </div>
+        <div class="drawer-content">
+            <p class="highlight">this is sites [original] site. this ap was create by 2026</p>
+            <p class="brand-tag">Created by Alite LLC</p>
+            <p class="mission-text">
+                This is the first step in Alite Limited Liability Company's efforts to alleviate human suffering, improve society, and provide additional income to people through content creation through Sites, a new online medium for people living all over the world.
+            </p>
+            <p class="copyright">&copy; Alite LLC</p>
+            <p class="rules-notice">Please abide by the rules here.</p>
+            <p class="legal-tag">&copy; Alite The Division that investigates legal proceedings</p>
+        </div>
+    </aside>
+
+    <!-- Main Left Sidebar -->
+    <aside class="sidebar">
+        <!-- Top Logo (Clickable) -->
+        <div class="logo-box" id="logoBtn" title="About Sites">
+            <svg class="logo" viewBox="0 0 200 220">
+                <path d="M 100 20 C 60 20, 20 60, 20 110 C 20 150, 45 180, 70 200 L 100 130 C 85 120, 70 100, 70 80 C 70 60, 85 45, 100 45 Z" fill="#ff4d4d"/>
+                <path d="M 100 20 C 140 20, 180 60, 180 110 C 180 130, 170 150, 155 165 L 115 110 C 125 100, 130 90, 130 80 C 130 60, 115 45, 100 45 Z" fill="#ffffff" opacity="0.8"/>
+            </svg>
+        </div>
+
+        <!-- Top Nav -->
+        <nav class="nav-group nav-top">
+            <button class="s-icon active" title="Home"><i class="fa-solid fa-house"></i></button>
+            <button class="s-icon" title="Shorts"><i class="fa-solid fa-bolt"></i></button>
+            <button class="s-icon" title="Music"><i class="fa-solid fa-music"></i></button>
+            <button class="s-icon" title="Store"><i class="fa-solid fa-bag-shopping"></i></button>
+            <button class="s-icon" title="E-Book Library"><i class="fa-solid fa-book-open"></i></button>
+        </nav>
+
+        <!-- Bottom Nav -->
+        <nav class="nav-group nav-bottom">
+            <button class="s-icon" title="Studio / My Content"><i class="fa-solid fa-square-rss"></i></button>
+            <button class="s-icon" title="Settings"><i class="fa-solid fa-gear"></i></button>
+            <button class="s-icon" title="My Space"><i class="fa-solid fa-folder-user"></i></button>
+            <button class="s-icon" title="Followings"><i class="fa-solid fa-user-group"></i></button>
+            <button class="s-icon" title="History"><i class="fa-solid fa-clock-rotate-left"></i></button>
+            <button class="s-icon" title="Account"><i class="fa-solid fa-circle-user"></i></button>
+        </nav>
+    </aside>
+
+    <!-- Main View Area -->
+    <div class="viewport">
+        <header class="header">
+            <div class="search-wrap">
+                <button class="search-btn" title="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="feed-container">
+            <div class="grid">
+                <article class="card">
+                    <div class="thumb"><span class="time">18:32</span></div>
+                    <div class="meta">
+                        <div class="avatar">V</div>
+                        <div class="text">
+                            <h3>Cyberpunk 2077 Ultra Path Tracing 4K</h3>
+                            <p>Vertex Gaming • 934K views</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="thumb alt"><span class="time">31:10</span></div>
+                    <div class="meta">
+                        <div class="avatar">A</div>
+                        <div class="text">
+                            <h3>Deep Space Webb Telescope Insights</h3>
+                            <p>AstroScience LK • 412K views</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
